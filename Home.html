@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Middle East Pharmacy</title>
+
+     <!-- Font Awasome Library -->
+     <link rel="Stylesheet" href="D:\InternetProject\CSS\all.min.css">
+     <!-- Google Fonts Family -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Work+Sans:wght@200;400;500;700;800&display=swap" rel="stylesheet">
+     <!-- Main Template CSS file -->
+     <link rel="Stylesheet" href="D:\InternetProject\CSS\Design.css">
+</head>
+
+<body id="body">
+    
+    <!-- Start Header -->
+    <header>
+        <div class="container">
+            <a href="Home.html" class="logo">
+                <i id="ii" class="fa-sharp fa-solid fa-mortar-pestle fa-2xl" style="color: #fafafa;"></i>
+                <p>MiddleEast</p>
+            </a>
+
+            <nav>
+                <i class="fas fa-bars toggle-menu"></i>
+                <ul>
+                    <li><a class="active" href="Home.html" >Home</a></li>
+                    <li><a href="#services" >Services</a></li>
+                    <li><a href="About.Html" >About Us</a></li>
+                    <li><a href="Suppliers.html" >Suppliers</a></li>
+                    <li><a href="Products.html" >Products</a></li>
+                    <li><a href="Contact.html" >Contact Us</a></li>
+                </ul>
+
+                <div class="form">
+                  <i class="fas fa-search"></i> 
+                </div>
+                 <button type="button" id="dark">🌃</button>
+            </nav>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Landing -->
+    <div class="landing">
+        <div class="overlay"> 
+        <div class="text">
+            <div class="content">
+                <h2>
+                    Welcome to our Pharmacy <br/>
+                    We Are The MiddleEast pharmacy, We Care About Your Health
+                </h2>
+                <p>Middle East Pharmacy for medicines, medical supplies, mother and child supplies, skin and hair care products</p>
+            </div>
+        </div>
+    </div>
+        <i class="fas fa-angle-left change-background fa-2x"></i>
+        <i class="fas fa-angle-right change-background fa-2x"></i>
+        <ul class="bullets">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <!-- End Landing -->
+
+    <!-- Start Services Section -->
+     <div id="services">
+        <div class="container">
+            <div class="main-heading">
+                <h2>Services</h2>
+                <p>We provide you with all your medical services and needs with an integrated medical staff with a strong, professional competence to meet all your requests around the clock.</p>
+            </div>
+            <div class="services-container">
+                <div class="srv-box">
+                    <i class="fa-solid fa-prescription fa-2xl"></i>
+
+                   <div class="text">
+                    <h3>Clinical Pharmacy Services</h3>
+                    <p>Clinical pharmacy services include muscle injection, cannula installation for intravenous injection, wound spare parts and first aid procedures </p>
+                   </div>
+                </div>
+
+                <div class="srv-box">
+                    <i class="fa-sharp fa-solid fa-heart-pulse fa-2xl"></i>
+                    <div class="text">
+                     <h3>Measurement of vital signs</h3>
+                     <p>The vital signs measurement service includes measuring both blood pressure and blood sugar in addition to weight and length</p>
+                    </div>
+                 </div>
+
+                 <div class="srv-box">
+                    <i class="fa-solid fa-mortar-pestle fa-2xl"></i>
+                    <div class="text">
+                     <h3>Compination of drugs and dose control</h3>
+                     <p>This service includes the Compination of rare or high-priced drugs, including chemotherapy and dermatology
+                    </p>
+                    </div>
+                 </div>
+
+                 <div class="srv-box">
+                    <i class="fa-solid fa-person-dress fa-2xl"></i>
+                    <div class="text">
+                     <h3>Organizing an integrated skincare routine </h3>
+                     <p>Organizing a skin care routine according to the type of skin and the degree of sensitivity and impact on external factors and treating hair problems from precipitation, post-tincture damage and weak hair follicles </p>
+                    </div>
+                 </div>
+            </div>
+        </div>
+     </div>
+    <!-- End Services Section -->
+
+    <!-- Start Video Section -->
+    <div class="video">
+        <video autoplay muted loop>
+            <source src="Images/pexels-polina-tankilevitch-3735645-1920x1080-25fps.mp4" type="video/mp4">
+        </video>
+        <div class="text">
+            <h2>Provides All Medical Survices</h2>
+            <p>It Is All you Need</p>
+            <a href="About.Html">See More</a>
+        </div>
+    </div>
+    <!-- End Video Section -->
+
+    <!-- Start Quote Section -->
+    <div class="quote">
+        <div class="container">
+            <q>درهمُ وقاية خيرٌ من  قنطار علاج</q>
+            <span>حكمة الأجداد وعرفٌ عالمي</span>
+        </div>
+    </div>
+    <!-- End Quote Section -->
+
+    <!-- Start Footer Section -->
+      <div class="footer">
+        <div class="container">
+            <i id="ii" class="fa-sharp fa-solid fa-mortar-pestle fa-2xl" style="color: #fafafa;"></i>
+                <p>MiddleEast</p>
+            <p>We Are Social</p>
+            <div class="social-icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-home"></i>
+            </div>
+            <p class="copyright">&copy;2023 <span>MiddleEast Pharmacy</span> All Rights Reserved</p>
+        </div>
+      </div>
+    <!-- End Footer Section -->
+
+    <!-- Dark Mode -->
+    <script>
+        var icon = document.getElementById('dark');
+        var body = document.getElementById('body');
+            icon.onclick = function(){
+                body.classList.toggle('dark');
+            }
+    </script>
+    <!-- source ==> https://github.com/abdelfatad/dark-mode/blob/main/index.html -->
+</body>
+</html>

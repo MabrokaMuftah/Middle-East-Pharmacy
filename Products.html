@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Font Awasome Library -->
+     <link rel="Stylesheet" href="D:\InternetProject\CSS\all.min.css">
+    <link rel="Stylesheet" href="D:\InternetProject\CSS\Design.css">
+
+    <title>Our Products</title>
+</head>
+<body id="body">
+    <!-- Start Header -->
+    <header>
+        <div class="container">
+            <a href="Home.html" class="logo">
+                <i id="ii" class="fa-sharp fa-solid fa-mortar-pestle fa-2xl" style="color: #fafafa;"></i>
+                <p>MiddleEast</p>
+            </a>
+
+            <nav>
+                <i class="fas fa-bars toggle-menu"></i>
+                <ul>
+                    <li><a href="Home.html" >Home</a></li>
+                    <li><a href="D:\InternetProject\About.Html" >About Us</a></li>
+                    <li><a href="D:\InternetProject\Suppliers.html" >Suppliers</a></li>
+                    <li><a class="active" href="D:\InternetProject\Products.html" >Products</a></li>
+                    <li><a href="D:\InternetProject\Contact.html" >Contact Us</a></li>
+                </ul>
+
+                <div class="form">
+                  <i class="fas fa-search"></i>  
+                </div>
+                <div class="dark-mood">
+                    <button type="button" id="dark">🌃</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Products Srction -->
+    <div class="products">
+        <div class="container">
+            <div class="main-heading">
+                <h2>Products</h2>
+                <p>We have all your needs for therapeutic drugs for all drug departments, skin and hair care products, and various skin treatments, mother and child supplies for food and equipment that facilitate the lives of our mothers, An integrated clinical care medical staff is also available from a general practitioner, nurses and health supervisors at the pharmacy.</p>
+            </div>
+
+            <ul class="shuffle">
+                <li class="active">All</li>
+               <li>Drugs</li> 
+               <li>Cosmetics</li> 
+               <li>Medical Equipments</li> 
+               <li>Mother & Child</li> 
+            </ul>
+        </div>
+        <div class="imgs-holder">
+            <div class="box">
+                <img src="Images/Janumet.jpg" alt="box1"/>
+                <div class="caption">
+                    <h4>Janumet 50/100mg Tablets</h4>
+                    <p>Drugs</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="Images/Exforge.jpg" alt="box2"/>
+                <div class="caption">
+                    <h4>Exforge 10/160mg Tablets</h4>
+                    <p>Drugs</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="Images/vichy.jpg" alt="box3"/>
+                <div class="caption">
+                    <h4>vichy dercos densi-solutions</h4>
+                    <p>Cosmetics</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="Images/Bumbble.jpg" alt="box4"/>
+                <div class="caption">
+                    <h4>Bumble Baby Pampers</h4>
+                    <p>Mother & Child</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="Images/cerave.jpg" alt="box5"/>
+                <div class="caption">
+                    <h4>Cerave Mosturizing Set</h4>
+                    <p>Cosmetics</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="Images/Urinebag.jpg" alt="box6"/>
+                <div class="caption">
+                    <h4>Urine Bag</h4>
+                    <p>Medical Equipments</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="Images/Laroch.jpg" alt="box7"/>
+                <div class="caption">
+                    <h4>Laroche Posay Effaclar cleanser</h4>
+                    <p>Cosmetics</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="Images/Panadol.jpg" alt="box8"/>
+                <div class="caption">
+                    <h4>Panadol Advance Tablets</h4>
+                    <p>Drugs</p>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="more">More</a>
+    </div>
+    <!-- End Products Section -->
+
+        <!-- Start Footer Section -->
+        <div class="footer">
+            <div class="container">
+                <i id="ii" class="fa-sharp fa-solid fa-mortar-pestle fa-2xl" style="color: #fafafa;"></i>
+                <p>MiddleEast</p>
+                <p>We Are Social</p>
+                <div class="social-icons">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-home"></i>
+                </div>
+                <p class="copyright">&copy;2023 <span>MiddleEast Pharmacy</span> All Rights Reserved</p>
+            </div>
+          </div>
+        <!-- End Footer Section -->
+
+        <!-- Dark Mode -->
+    <script>
+        var icon = document.getElementById('dark');
+        var body = document.getElementById('body');
+            icon.onclick = function(){
+                body.classList.toggle('dark');
+            }
+    </script>
+    <!-- source ==> https://github.com/abdelfatad/dark-mode/blob/main/index.html -->
+</body>
+</html>

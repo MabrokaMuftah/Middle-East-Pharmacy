@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Font Awasome Library -->
+     <link rel="Stylesheet" href="D:\InternetProject\CSS\all.min.css">
+    <link rel="Stylesheet" href="D:\InternetProject\CSS\Design.css">
+    <title>About</title>
+</head>
+<body id="body">
+    <!-- Start Header -->
+    <header>
+        <div class="container">
+            <a href="Home.html" class="logo">
+                <i id="ii" class="fa-sharp fa-solid fa-mortar-pestle fa-2xl" style="color: #fafafa;"></i>
+                <p>MiddleEast</p>
+            </a>
+
+            <nav>
+                <i class="fas fa-bars toggle-menu"></i>
+                <ul>
+                    <li><a href="Home.html" >Home</a></li>
+                    <li><a class="active" href="D:\InternetProject\About.Html" >About Us</a></li>
+                    <li><a href="D:\InternetProject\Suppliers.html" >Suppliers</a></li>
+                    <li><a href="D:\InternetProject\Products.html" >Products</a></li>
+                    <li><a href="D:\InternetProject\Contact.html" >Contact Us</a></li>
+                </ul>
+
+                <div class="form">
+                  <i class="fas fa-search"></i>
+                </div>
+                <div class="dark-mood">
+                    <button type="button" id="dark">🌃</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start About Section -->
+    <div class="about">
+        <div class="container">
+            <img src="Images/About.jpg.jpg" alt="About">            
+            <div class="main-heading">
+                <h2>About Us</h2>
+                <p>The Middle East Pharmacy for Medicines, Medical Equipment and Mother and Child Supplies, a long-standing name that has been experienced in providing all medical services and full health care, at its headquarters in the Garions-Libya region.
+                    Our mission is to provide all your needs with high quality, standards and appropriate prices-sky is the limit and we are always ready to take our achievements to the next level. We are growing and would always like to remain on the growing streak.</p>
+            </div>
+        </div>
+    </div>
+    <!-- End About Section -->
+
+    <!-- Start Footer Section -->
+    <div class="footer">
+            <div class="container">
+                <i id="ii" class="fa-sharp fa-solid fa-mortar-pestle fa-2xl" style="color: #fafafa;"></i>
+                <p>MiddleEast</p>
+                <p>We Are Social</p>
+                <div class="social-icons">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-home"></i>
+                </div>
+                <p class="copyright">&copy;2023 <span>MiddleEast Pharmacy</span> All Rights Reserved</p>
+            </div>
+    </div>
+        <!-- End Footer Section -->
+
+        <!-- Dark Mode -->
+    <script>
+        var icon = document.getElementById('dark');
+        var body = document.getElementById('body');
+            icon.onclick = function(){
+                body.classList.toggle('dark');
+            }
+    </script>
+    <!-- source ==> https://github.com/abdelfatad/dark-mode/blob/main/index.html -->
+</body>
+</html>
